@@ -20,4 +20,4 @@ const mapStateToProps = (state) => {
   return { users: state.users, count: state.users.length }
 }
 
-export default Users
+export default Users connect(mapStateToProps)(Users);
